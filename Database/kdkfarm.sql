@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2022 at 05:58 PM
+-- Generation Time: Nov 02, 2022 at 06:08 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -97,13 +97,6 @@ CREATE TABLE `farmer_reg` (
   `password` varchar(250) COLLATE utf8mb4_bin DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
---
--- Dumping data for table `farmer_reg`
---
-
-INSERT INTO `farmer_reg` (`farmer_id`, `name`, `city`, `address`, `phone`, `username`, `password`) VALUES
-(2, 'Atharva Thakur', 'Pune', 'Pune', 8793817762, 'art', '1234567');
-
 -- --------------------------------------------------------
 
 --
@@ -115,13 +108,6 @@ CREATE TABLE `product` (
   `pro_name` varchar(250) COLLATE utf8mb4_bin NOT NULL,
   `price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
-
---
--- Dumping data for table `product`
---
-
-INSERT INTO `product` (`pro_id`, `pro_name`, `price`) VALUES
-(2, 'Wheat', 500);
 
 -- --------------------------------------------------------
 

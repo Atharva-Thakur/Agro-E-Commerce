@@ -1,4 +1,4 @@
-# Java-project-Farmer-Market
+# Agro-E-Commerce
 ## Requirements :-
 1. Apache Netbeans
 2. MySQL
